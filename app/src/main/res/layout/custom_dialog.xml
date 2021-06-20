@@ -1,0 +1,56 @@
+<layout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/lock"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="30dp"
+                    android:src="@drawable/ic_action_lock"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/unlock"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="end|center"
+                    android:layout_margin="30dp"
+                    android:src="@drawable/ic_action_unlock"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedbutton"
+                android:clickable="true"
+                android:text="FECHAR"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>
